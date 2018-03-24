@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/background2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#quiz{
+
+    float: right;
+    width: 650px;
+    margin-right: 100px;
+    /* Smargin-left: 800px; */
+    margin-top: 100px;
+    /* background-color: darkorchid; */
+    border-radius: 15px;
+    border-color: darkblue;
+    border-width:  5px;
+    border-style: solid;
+    text-align: center;
+    background-color: indigo;
+    padding-bottom: 10px;
+    font-weight: bold;
+    /* color: dodgerblue; */
+
+}
+
+#questions{
+    display: none;
+    color: dodgerblue;
+    
+}
+
+ #start{
+     margin-top: 30px; 
+     width: 80px;
+     height: 30px;
+     background: goldenrod;
+     font-weight: 300;
+     font-size: 20px;
+
+}
+
+#done{
+    padding: 20px 0px 7px;
+}
